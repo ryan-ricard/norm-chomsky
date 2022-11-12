@@ -40,6 +40,12 @@ footer{
     text-align:  center;
 }
  @media only screen and (max-width: 600px) {
+  h1{
+    font-size:  80px;
+  }
+  main, footer{
+    width: 600px;
+  }
   img {
     max-width: 500px;
   }
