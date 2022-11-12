@@ -5,8 +5,14 @@ main{
 	width: 800px;
 	margin: 2em auto;
 }
+.pre-title{
+    width:  100%;
+    align: left;
+    font-style:  italic;
+}
 h1{
 	font-size: 100px;
+    margin-top: 10px;
 }
 .container{
 	display: flex;
