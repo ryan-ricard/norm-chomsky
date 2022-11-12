@@ -3,7 +3,7 @@
 const assignQuote = (quotes) => {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
     document.getElementById("quote").innerHTML = randomQuote.replaceAll('\n','<br />');
-    document.getElementById("quote").style.display = 'block';
+    document.getElementById("quote").style.visibility = 'visible';
 }
 
 const assignPhoto = (photoDir) => {
@@ -15,7 +15,7 @@ const assignPhoto = (photoDir) => {
     if (photoDir === 'norm'){
         img.alt='Photo of Norm Peterson, played by George Wendt'
     }
-    img.style.display = 'block';
+    img.style.visibility = 'visible';
 }
 
 document.addEventListener("DOMContentLoaded", function() {
